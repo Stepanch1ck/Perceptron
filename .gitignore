@@ -1,0 +1,32 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Academic report and LaTeX build files (excluded from repository)
+report.pdf
+report.tex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Archive and raw prompt files
+*.rar
+*.zip
+pdf_text.txt
+defence.pdf
+Многослойный персептрон.pdf
+
+# Generated model weights and test artifacts
+saved_model*.npz
+test_*.csv
+test_*.npz
